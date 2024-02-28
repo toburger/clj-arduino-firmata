@@ -1,4 +1,4 @@
-(ns test-clj-firmata
+(ns test
   (:require [clojure.core.async :refer [<! <!! chan go sub]]
             [firmata.core :as firmata]))
 
